@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "marbles",
+  "version": "${version}",
+
+  "name": "Marbles",
+  "description": "This is Marbles!",
+  "authors": [
+    "Dodo Gang"
+  ],
+  "contact": {
+    "homepage": "https://dodogang.net/",
+    "sources": "https://github.com/dodogang/marbles"
+  },
+
+  "license": "Apache License 2.0",
+  "icon": "assets/marbles/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.dodogang.marbles.MarblesMod"
+    ]
+  },
+  "mixins": [
+    "marbles.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.17-alpha.20.49.a"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
