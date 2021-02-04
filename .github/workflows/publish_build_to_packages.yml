@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - fabric/1.16.5
+      - experimental/data-generation
 
 jobs:
   build:
