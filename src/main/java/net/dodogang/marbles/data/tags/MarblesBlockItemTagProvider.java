@@ -244,7 +244,6 @@ public class MarblesBlockItemTagProvider implements DataProvider {
         add(ItemTags.BOATS, set.BOAT_ITEM);
     }
 
-
     private void add(Tag.Identified<Block> blockTag, Block... vals) {
         TagFactory<Block> factory = blocks.factory(blockTag);
         for (Block val : vals) {

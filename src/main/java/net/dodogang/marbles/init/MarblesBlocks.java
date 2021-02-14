@@ -126,8 +126,6 @@ public class MarblesBlocks {
     public static final Block PEACH_TRAVERTINE_SALT_LAMP = createSaltLamp(PEACH_TRAVERTINE);
     public static final Block TANGERINE_TRAVERTINE_SALT_LAMP = createSaltLamp(TANGERINE_TRAVERTINE);
 
-
-
     //
     // PINK SALT
     //
@@ -191,6 +189,14 @@ public class MarblesBlocks {
     public static final Block YELLOW_SCAFFOLDING = register(YellowScaffoldingBlock.id, new YellowScaffoldingBlock(FabricBlockSettings.copy(Blocks.SCAFFOLDING)), false);
 
     //
+    // GRISP
+    //
+
+    private static final String grisp = "grisp";
+    public static final Block GRISP = register(grisp, new SnowyBlock(FabricBlockSettings.copy(Blocks.GRASS_BLOCK)) {});
+    public static final Block GRISP_DIRT = register(grisp + "_dirt", new Block(FabricBlockSettings.copy(Blocks.DIRT)));
+
+    //
     // SANDS
     //
 
@@ -242,7 +248,7 @@ public class MarblesBlocks {
     public MarblesBlocks() {}
 
     public static Block register(String id, Block block, boolean registerItem) {
-        Identifier identifier = new Identifier(Marbles.MOD_ID, id);
+        Identifier identifier = Marbles.id(id);
 
         Block registeredBlock = Registry.register(Registry.BLOCK, identifier, block);
         if (registerItem) Registry.register(Registry.ITEM, identifier, new BlockItem(registeredBlock, new Item.Settings().maxCount(64).group(Marbles.ITEM_GROUP)));

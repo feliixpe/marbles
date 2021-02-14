@@ -2,6 +2,7 @@ package net.dodogang.marbles.data.models.modelgen;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import net.dodogang.marbles.Marbles;
 import net.minecraft.util.Identifier;
 
 import java.util.LinkedHashMap;
@@ -260,28 +261,28 @@ public class InheritingModelGen implements ModelGen {
     }
 
     public static InheritingModelGen wallSidedSide(String bottom, String top, String side) {
-        return new InheritingModelGen("marbles:block/template_wall_sided_side")
+        return new InheritingModelGen(Marbles.idStr("block/template_wall_sided_side"))
                    .texture("bottom", bottom)
                    .texture("top", top)
                    .texture("side", side);
     }
 
     public static InheritingModelGen wallSidedSideTall(String bottom, String top, String side) {
-        return new InheritingModelGen("marbles:block/template_wall_sided_side_tall")
+        return new InheritingModelGen(Marbles.idStr("block/template_wall_sided_side_tall"))
                    .texture("bottom", bottom)
                    .texture("top", top)
                    .texture("side", side);
     }
 
     public static InheritingModelGen wallSidedPost(String bottom, String top, String side) {
-        return new InheritingModelGen("marbles:block/template_wall_sided_post")
+        return new InheritingModelGen(Marbles.idStr("block/template_wall_sided_post"))
                    .texture("bottom", bottom)
                    .texture("top", top)
                    .texture("side", side);
     }
 
     public static InheritingModelGen wallSidedInventory(String bottom, String top, String side) {
-        return new InheritingModelGen("marbles:block/wall_sided_inventory")
+        return new InheritingModelGen(Marbles.idStr("block/wall_sided_inventory"))
                    .texture("bottom", bottom)
                    .texture("top", top)
                    .texture("side", side);

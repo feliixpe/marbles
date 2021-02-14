@@ -5,7 +5,6 @@ import net.fabricmc.fabric.api.tag.TagRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.tag.ItemTags;
 import net.minecraft.tag.Tag;
-import net.minecraft.util.Identifier;
 
 public class MarblesItemTags {
     public static final Tag.Identified<Item> ASPEN_LOGS = register("aspen_logs");
@@ -24,8 +23,7 @@ public class MarblesItemTags {
 
     public static final Tag.Identified<Item> HIGH_LIGHT_BLOCKS = register("high_light_blocks");
 
-
     private static Tag.Identified<Item> register(String id) {
-        return TagRegistry.create(new Identifier(Marbles.MOD_ID, id), ItemTags::getTagGroup);
+        return TagRegistry.create(Marbles.id(id), ItemTags::getTagGroup);
     }
 }

@@ -2,7 +2,6 @@ package net.dodogang.marbles.init;
 
 import net.dodogang.marbles.Marbles;
 import net.dodogang.marbles.world.gen.feature.YellowBambooFeature;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.ProbabilityConfig;
 import net.minecraft.world.gen.feature.Feature;
@@ -14,6 +13,6 @@ public class MarblesFeatures {
     public MarblesFeatures() {}
 
     private static <C extends FeatureConfig, F extends Feature<C>> F register(String id, F feature) {
-        return Registry.register(Registry.FEATURE, new Identifier(Marbles.MOD_ID, id), feature);
+        return Registry.register(Registry.FEATURE, Marbles.id(id), feature);
     }
 }

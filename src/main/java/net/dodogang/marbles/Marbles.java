@@ -15,7 +15,7 @@ public class Marbles implements ModInitializer {
     public static final String MOD_NAME = "Marbles";
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "item_group"), () -> new ItemStack(MarblesBlocks.TRAVERTINE));
-    public static Logger LOGGER = LogManager.getLogger(MOD_ID);
+    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
     private static boolean initialized = false;
 
@@ -45,5 +45,15 @@ public class Marbles implements ModInitializer {
     }
     public static void log(String message) {
         log(Level.INFO, message);
+    }
+
+    public static Identifier id(Identifier identifier) {
+        return identifier.getNamespace().equals("minecraft") ? new Identifier(MOD_ID, identifier.getPath()) : identifier;
+    }
+    public static String idStr(String path) {
+        return id(path).toString();
+    }
+    public static Identifier id(String path) {
+        return new Identifier(MOD_ID, path);
     }
 }

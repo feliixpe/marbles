@@ -181,6 +181,9 @@ public class MarblesBlockLootTables implements Consumer<BiConsumer<Identifier, L
         addDrop(MarblesBlocks.YELLOW_BAMBOO_SAPLING, MarblesBlocks.YELLOW_BAMBOO);
         addDrop(MarblesBlocks.YELLOW_SCAFFOLDING);
 
+        addDrop(MarblesBlocks.GRISP);
+        addDrop(MarblesBlocks.GRISP_DIRT);
+
         addDrop(MarblesBlocks.DAWN_SAND);
         addDrop(MarblesBlocks.DAWN_SANDSTONE);
         addDrop(MarblesBlocks.CHISELED_DAWN_SANDSTONE);

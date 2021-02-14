@@ -166,7 +166,7 @@ public class MarblesBiomes {
     }
 
     private static RegistryKey<Biome> register(String id, Biome biome) {
-        Identifier identifier = new Identifier(Marbles.MOD_ID, id);
+        Identifier identifier = Marbles.id(id);
         BuiltinRegistries.add(BuiltinRegistries.BIOME, identifier, biome);
 
         return MarblesBiomes.getKey(identifier);

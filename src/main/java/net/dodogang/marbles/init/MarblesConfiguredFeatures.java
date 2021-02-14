@@ -4,7 +4,6 @@ import com.google.common.collect.ImmutableList;
 import net.dodogang.marbles.Marbles;
 import net.dodogang.marbles.world.gen.feature.YellowBambooFeature;
 import net.minecraft.block.BlockState;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.ProbabilityConfig;
@@ -116,7 +115,7 @@ public class MarblesConfiguredFeatures {
     public MarblesConfiguredFeatures() {}
 
     private static <FC extends FeatureConfig> ConfiguredFeature<FC, ?> register(String id, ConfiguredFeature<FC, ?> configuredFeature) {
-        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(Marbles.MOD_ID, id), configuredFeature);
+        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, Marbles.id(id), configuredFeature);
     }
 
     private static class States {
