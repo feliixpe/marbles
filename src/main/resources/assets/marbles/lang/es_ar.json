@@ -305,6 +305,11 @@
   "block.marbles.chequered_yellow_bamboo_lattice": "Tramado de bambú a cuadros",
   "block.marbles.crossed_yellow_bamboo_lattice": "Tramado de bambú entrecruzado",
 
+  "block.marbles.bamboo_tiki_torch": "Antorcha tiki de bambú",
+  "block.marbles.bamboo_tiki_pole": "Poste tiki de bambú",
+  "block.marbles.yellow_bamboo_tiki_torch": "Antorcha tiki de bambú amarillo",
+  "block.marbles.yellow_bamboo_tiki_pole": "Poste tiki de bambú amarillo",
+
   "biome.marbles.travertine_straws": "Cañas de travertino",
   "biome.marbles.yellow_bamboo_jungle": "Jungla de bambú amarillo",
   "biome.marbles.yellow_bamboo_jungle_hills": "Colinas de jungla de bambú amarillo",
