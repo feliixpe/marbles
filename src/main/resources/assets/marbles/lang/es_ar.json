@@ -5,11 +5,13 @@
   "itemGroup.marbles": "Marbles (%s)",
   "itemGroup.marbles.title": "Marbles",
   "itemGroup.tab.marbles:all": "Todo",
-  "itemGroup.tab.marbles:pink_salt_and_travertine": "Sal rosa y travertino",
-  "itemGroup.tab.marbles:ice": "Hielo",
+
+  "itemGroup.tab.marbles:travertine_straws": "Cañas de travertino",
+  "itemGroup.tab.marbles:pink_salt_caves": "Cuevas de sal rosa",
   "itemGroup.tab.marbles:sunset_grotto": "Gruta del ocaso",
   "itemGroup.tab.marbles:aspen_crevices": "Grieta de álamos",
   "itemGroup.tab.marbles:bamboo_valley": "Valle de bambú",
+  "itemGroup.tab.marbles:ice": "Hielo",
 
   "block.marbles.travertine": "Travertino",
   "block.marbles.travertine_wall": "Pared de travertino",
@@ -86,10 +88,12 @@
   "block.marbles.limestone_slab": "Baldosa de caliza",
   "block.marbles.limestone_wall": "Pared de caliza",
   "block.marbles.limestone_stairs": "Escaleras de caliza",
+  "block.marbles.quartered_limestone": "Caliza cuarteada",
   "block.marbles.polished_limestone": "Caliza pulida",
   "block.marbles.polished_limestone_slab": "Baldosa de caliza pulida",
   "block.marbles.polished_limestone_stairs": "Escaleras de caliza pulida",
   "block.marbles.polished_limestone_wall": "Pared de caliza pulida",
+  "block.marbles.quartered_polished_limestone": "Calcita pulida cuarteada",
 
   "block.marbles.aspen_planks": "Madera de álamo",
   "block.marbles.aspen_sapling": "Brote de álamo",
@@ -168,9 +172,16 @@
   "block.marbles.pollenated_cobblestone_stairs": "Escaleras de adoquín polinizado",
   "block.marbles.pollenated_cobblestone_wall": "Pared de adoquín polinizado",
 
+  "block.marbles.pollenated_stone_bricks": "Ladrillos de piedra polinizada",
+  "block.marbles.pollenated_stone_brick_slab": "Baldosa de ladrillos de piedra polinizada",
+  "block.marbles.pollenated_stone_brick_stairs": "Escaleras de ladrillos de piedra polinizada",
+  "block.marbles.pollenated_stone_brick_wall": "Pared de ladrillos de piedra polinizada",
+
   "block.marbles.aspen_sprouts": "Brotes de álamo",
   "block.marbles.aspen_grass": "Pasto de álamo",
   "block.marbles.tall_aspen_grass": "Pasto de álamo alto",
+  "block.marbles.aspen_seagrass": "Planta marina de álamo",
+  "block.marbles.tall_aspen_seagrass": "Planta marina de álamo alta",
 
   "block.marbles.pollen_graced_wool": "Lana polinizada",
   "block.marbles.pollen_graced_carpet": "Alfombra polinizada",
@@ -180,7 +191,7 @@
   "block.marbles.lapis_shingles": "Tejas de lapislázuli",
   "block.marbles.lapis_shingle_slab": "Baldosa de tejas de lapislázuli",
   "block.marbles.lapis_shingle_stairs": "Escaleras de tejas de lapislázuli",
-  "block.marbles.lapis_spotlight": "Faro de lapislázuli",
+  "block.marbles.lapis_spotlight": "Foco de lapislázuli",
 
   "item.marbles.umbral_lazuli": "Umbralázuli",
   "block.marbles.glazed_umbral_lazuli": "Azulejo de umbralázuli",
@@ -190,7 +201,7 @@
   "block.marbles.umbral_lazuli_shingles": "Tejas de umbralázuli",
   "block.marbles.umbral_lazuli_shingle_slab": "Baldosa de tejas de umbralázuli",
   "block.marbles.umbral_lazuli_shingle_stairs": "Escaleras de tejas de umbralázuli",
-  "block.marbles.umbral_lazuli_spotlight": "Faro de umbralázuli",
+  "block.marbles.umbral_lazuli_spotlight": "Foco de umbralázuli",
 
   "block.marbles.dawn_sand": "Arena alba",
   "block.marbles.dawn_sandstone": "Arenisca alba",
@@ -235,7 +246,7 @@
   "block.marbles.pink_salt_brick_slab": "Baldosa de ladrillos de sal rosa",
   "block.marbles.pink_salt_brick_stairs": "Escaleras de ladrillos de sal rosa",
   "block.marbles.pink_salt_pillar": "Columna de sal rosa",
-  "block.marbles.pink_salt_spire": "Aguja de sal rosa",
+  "block.marbles.pink_salt_spire": "Torre de sal rosa",
   "block.marbles.pink_salt_stack": "Montón de sal rosa",
   "block.marbles.pink_salt_stump": "Poste de sal rosa",
 
@@ -266,29 +277,41 @@
   "block.marbles.chiseled_floestone": "Tempanita cincelada",
   "block.marbles.rilled_floestone": "Tempanita arroyada",
   "block.marbles.ringed_floestone": "Tempanita anillada",
+  "block.marbles.ringed_rilled_floestone": "Tempanita arroyada anillada",
+
+  "block.marbles.permafrost": "Permahielo",
+  "block.marbles.permafrost_path": "Camino de permahielo",
+  "block.marbles.permafrost_dirt": "Tierra de permahielo",
+  "block.marbles.permafrost_dirt_path": "Camino de tierra de permahielo",
+  "block.marbles.coarse_permafrost_dirt": "Tierra de permahielo infértil",
+  "block.marbles.permafrost_podzol": "Podsol de permahielo",
+  "block.marbles.permafrost_podzol_path": "Camino de podsol de permahielo",
+  "block.marbles.permafrost_mycelium": "Micelio de permahielo",
+  "block.marbles.permafrost_mycelium_path": "Camino de micelio de permahielo",
+  "block.marbles.permafrost_farmland": "Tierra de cultivo de permahielo",
 
   "block.marbles.scaled_ice": "Hielo escamoso",
-  "block.marbles.minted_ice": "Hielo mentolado",
+  "block.marbles.minted_ice": "Hielo menta",
 
   "block.marbles.cut_ice": "Hielo cortado",
   "block.marbles.cut_blue_ice": "Hielo azul cortado",
   "block.marbles.cut_scaled_ice": "Hielo escamoso cortado",
-  "block.marbles.cut_minted_ice": "Hielo mentolado cortado",
+  "block.marbles.cut_minted_ice": "Hielo menta cortado",
 
   "block.marbles.chiseled_ice": "Hielo cincelado",
   "block.marbles.chiseled_blue_ice": "Hielo azul cincelado",
   "block.marbles.chiseled_scaled_ice": "Hielo escamoso cincelado",
-  "block.marbles.chiseled_minted_ice": "Hielo mentolado cincelado",
+  "block.marbles.chiseled_minted_ice": "Hielo menta cincelado",
 
   "block.marbles.ice_bricks": "Ladrillos de hielo",
   "block.marbles.blue_ice_bricks": "Ladrillos de hielo azul",
   "block.marbles.scaled_ice_bricks": "Ladrillos de hielo escamoso",
-  "block.marbles.minted_ice_bricks": "Ladrillos de hielo mentolado",
+  "block.marbles.minted_ice_bricks": "Ladrillos de hielo menta",
 
   "block.marbles.slush": "Aguanieve",
   "block.marbles.blue_slush": "Aguanieve azul",
   "block.marbles.scaled_slush": "Aguanieve escamosa",
-  "block.marbles.minted_slush": "Aguanieve mentolada",
+  "block.marbles.minted_slush": "Aguanieve menta",
 
   "block.marbles.rope": "Soga",
   "block.marbles.rope.crossbow": "Soga x%s",
@@ -302,14 +325,16 @@
   "block.marbles.yellow_bamboo_sapling": "Brote de bambú amarillo",
   "block.marbles.potted_yellow_bamboo": "Maceta con bambú amarillo",
   "block.marbles.yellow_scaffolding": "Andamio amarillo",
-  "block.marbles.chequered_yellow_bamboo_lattice": "Tramado de bambú a cuadros",
-  "block.marbles.crossed_yellow_bamboo_lattice": "Tramado de bambú entrecruzado",
+  "block.marbles.chequered_yellow_bamboo_lattice": "Tramado de bambú amarillo a cuadros",
+  "block.marbles.crossed_yellow_bamboo_lattice": "Tramado de bambú amarillo entrecruzado",
 
   "block.marbles.bamboo_tiki_torch": "Antorcha tiki de bambú",
   "block.marbles.bamboo_tiki_pole": "Poste tiki de bambú",
   "block.marbles.yellow_bamboo_tiki_torch": "Antorcha tiki de bambú amarillo",
   "block.marbles.yellow_bamboo_tiki_pole": "Poste tiki de bambú amarillo",
 
+  "biome.marbles.permafrost_ice_spikes": "Picos de permahielo",
+  "biome.marbles.wooded_permafrost_mountains": "Montañas boscosas de permahielo",
   "biome.marbles.travertine_straws": "Cañas de travertino",
   "biome.marbles.yellow_bamboo_jungle": "Jungla de bambú amarillo",
   "biome.marbles.yellow_bamboo_jungle_hills": "Colinas de jungla de bambú amarillo",
@@ -328,18 +353,25 @@
   "death.attack.marbles.pink_salt_spikes": "%s fue empalado/a por picos de sal rosa",
   "death.attack.marbles.pink_salt_spikes.player": "%s fue empalado/a por picos de sal rosa mientras peleaba con %s",
 
-  "entity.marbles.bouncer": "Patovica",
-  "item.marbles.bouncer_spawn_egg": "Generar patovica",
-  "subtitles.entity.marbles.bouncer.throw": "Patovica tira una entidad",
-  "subtitles.entity.marbles.bouncer.ambient": "Patovica deambula",
-  "subtitles.entity.marbles.bouncer.waiting": "Patovica espera pacientemente",
-  "subtitles.entity.marbles.bouncer.death": "Patovica muere",
-  "subtitles.entity.marbles.bouncer.hurt": "Patovica herido",
+  "entity.marbles.bouncer": "Bravucón",
+  "item.marbles.bouncer_spawn_egg": "Generar bravucón",
+  "subtitles.entity.marbles.bouncer.throw": "Bravucón tira una entidad",
+  "subtitles.entity.marbles.bouncer.ambient": "Bravucón deambula",
+  "subtitles.entity.marbles.bouncer.waiting": "Bravucón espera pacientemente",
+  "subtitles.entity.marbles.bouncer.death": "Bravucón muere",
+  "subtitles.entity.marbles.bouncer.hurt": "Bravucón herido",
 
   "entity.marbles.pollen_graced_sheep": "Oveja polinizada",
   "item.marbles.pollen_graced_sheep_spawn_egg": "Generar oveja polinizada",
 
-  "debug.option.marbles.spotlight": "Faros",
+  "entity.marbles.koi": "Koi",
+  "item.marbles.koi_spawn_egg": "Generar koi",
+  "item.marbles.koi_bucket": "Balde con koi",
+
+  "entity.marbles.pink_salt_cube": "Cubo de sal rosa",
+  "item.marbles.pink_salt_cube_spawn_egg": "Generar cubo de sal rosa",
+
+  "debug.option.marbles.spotlight": "Focos",
 
   "config.marbles.title": "Marbles",
   "config.marbles.category.none_available": "§c(No hay opciones disponibles)",
@@ -347,5 +379,5 @@
   "config.marbles.category.graphics.additional_cloud_layers": "Capas de nubes adicionales",
   "config.marbles.category.graphics.additional_cloud_layers.tooltip": "Activa o desactiva las capas de nubes adicionales.",
   "config.marbles.category.graphics.only_marbles_splash_texts": "Solo textos splash de Marbles",
-  "config.marbles.category.graphics.only_marbles_splash_texts.tooltip": "Muestra solamente textos splash de Marbles."
+  "config.marbles.category.graphics.only_marbles_splash_texts.tooltip": "Muestra solamente los textos splash de Marbles."
 }
