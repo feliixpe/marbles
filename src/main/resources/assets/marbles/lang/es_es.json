@@ -349,7 +349,7 @@
 
   "death.fell.accident.marbles:yellow_scaffolding": "%1$s ha caído de un andamio amarillo",
   "death.attack.marbles.bouncer": "%1$s ha recibido una paliza muy fuerte de %2$s",
-  "death.attack.marbles.bouncer.item": "%1$s ha recibido una paliza muy fuerte de %2$s usando %3$s",
+  "death.attack.marbles.bouncer.item": "%1$s ha recibido una paliza muy fuerte de %2$s y su %3$s",
   "death.attack.marbles.pink_salt_spikes": "%s ha sido empalado/a por picos de sal rosa",
   "death.attack.marbles.pink_salt_spikes.player": "%s ha sido empalado/a por picos de sal rosa mientras luchaba contra %s",
 
